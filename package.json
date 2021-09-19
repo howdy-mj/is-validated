@@ -1,7 +1,7 @@
 {
   "name": "is-validated",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.1-beta.1",
+  "description": "Check Validation of input",
   "homepage": "",
   "files": [
     "dist"
@@ -12,10 +12,12 @@
     "type": "git",
     "url": "https://github.com/howdy-mj/is-validated"
   },
-  "author": "howdy-mj <hi.minjungkim@gmail.com>",
+  "author": "MJ Kim <hi.minjungkim@gmail.com>",
   "license": "MIT",
   "keywords": [
-    "validation"
+    "validation",
+    "is validated",
+    "input validation"
   ],
   "scripts": {
     "prepare": "husky install",
