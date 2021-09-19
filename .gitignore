@@ -1,0 +1,17 @@
+# DO NOT PUBLISH ON GIT
+
+# Logs
+logs
+*.log
+
+# Dependency directory
+node_modules
+
+# MAC
+.DS_Store
+
+# Npm Package
+dist
+
+# Etc.
+*.idea

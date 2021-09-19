@@ -1,0 +1,23 @@
+# DO NOT PUBLISH ON NPM
+
+# Logs
+logs
+*.log
+
+# Dependency directory
+node_modules
+
+# MAC
+.DS_Store
+
+# Git Repo 
+src
+test
+
+# DOCS
+CODE_OF_CONDUCT.md
+LICENSE.md
+
+
+# Etc.
+*.idea
