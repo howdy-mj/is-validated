@@ -1,13 +1,13 @@
 {
   "name": "is-validated",
-  "version": "0.0.1-beta.1",
-  "description": "Check Validation of input",
+  "version": "0.0.1-beta.1.1",
+  "description": "Check validation of input",
   "homepage": "",
   "files": [
     "dist"
   ],
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/howdy-mj/is-validated"
@@ -23,7 +23,14 @@
     "prepare": "husky install",
     "build": "tsc"
   },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
   "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
     "eslint": "^7.32.0",
     "husky": "^7.0.2",
     "typescript": "^4.4.3"
